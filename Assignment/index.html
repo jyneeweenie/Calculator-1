@@ -6,30 +6,14 @@
     <title>Bank app</title>
 </head>
 <body>
-    <h2>Bank App</h2>
-    <h3>Enter transaction amount</h3>
-    <div class="col-3 media_link btn" href="#">
-        <div class="row">
-          <div class="col-6 d-flex justify-content-start">
-            <h3 class="m-0 pt-2 text-dark">credit</h3>
-          </div>
-          <div class="col-6 d-flex justify-content-end align-items-center">
-            <i class="fab fa-credit fa-2x text-secondary"></i>
-          </div>
-        </div>
-      </div>
-      <div class="col-3 media_link btn" href="#">
-        <div class="row">
-          <div class="col-6 d-flex justify-content-start">
-            <h3 class="m-0 pt-2 text-white">debit</h3>
-          </div>
-          <div class="col-6 d-flex justify-content-end align-items-center">
-            <i class="fab fa-debit fa-2x text-secondary"></i>
-          </div>
-        </div>
-      </div>
-      <h3>Your  account balance is:Rs.0</h3>
-
-
+    <h2 style="color: black;"">Bank App</h2>
+Enter transaction amount<button class="empty" id="empty"></button>
+<br>
+<button class="string" id="credit">Credit</button>
+<button class="string" id="debit">Debit</button>
+<br>
+Your account balance is :Rs.0
+<div var="account_balance = parseInt(current_balnce_el.innertext) + parseInt(entered_amount_el)"></div>
+<div var="current_balnce_el.innertext = parseInt(account_balance)"></div>
 </body>
 </html>
